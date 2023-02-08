@@ -1,0 +1,10 @@
+@import './moviePage.scss';
+@import './shows.scss';
+@import './search.scss';
+
+body {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
