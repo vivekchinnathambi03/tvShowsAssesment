@@ -63,11 +63,7 @@ export default defineComponent({
                 `search/shows?q=${searchTextValue}`
             )
             this.shows = shows
-        },
-        replaceByDefault(e: Event) {
-            let image = e.target as HTMLImageElement
-            image.src = '/placeholder.png'
-        },
+        }
     },
 })
 </script>
